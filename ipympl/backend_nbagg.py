@@ -243,10 +243,10 @@ class Canvas(DOMWidget, FigureCanvasWebAggCore):
         return TimerTornado(*args, **kwargs)
 
     def start_event_loop(self, timeout):
-        FigureCanvasBase.start_event_loop_default(self, timeout)
+        FigureCanvasBase.start_event_loop(self, timeout)
 
     def stop_event_loop(self):
-        FigureCanvasBase.stop_event_loop_default(self)
+        FigureCanvasBase.stop_event_loop(self)
 
 
 class FigureManager(FigureManagerWebAgg):
